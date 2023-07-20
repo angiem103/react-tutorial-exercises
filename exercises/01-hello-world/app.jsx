@@ -2,9 +2,10 @@ import React from "react"; //Main React.js library
 
 import ReactDOM from "react-dom"; //we use ReactDOM to render into the DOM
 
+let age = '12';
+let name = 'James';
 // WHAT: This variable returns contains the html to render
-let output = <span>James is 12 years old</span>;
-
+let output = <span>James is <strong>{age}</strong> years old</span> ;
 // WHERE: A DOM element that will contain the entire react generated html
 const myDiv = document.querySelector("#myDiv");
 
